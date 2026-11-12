@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build output
+dist/
+*.zip
+
+# QGIS project backups and generated files
+*.qgs~
+*.qgz~
+*.qm
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+__MACOSX/

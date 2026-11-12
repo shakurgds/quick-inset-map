@@ -1,0 +1,26 @@
+[general]
+name=Quick Inset Map
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Add an inset (locator) map to a print layout in one click.
+about=Adds a small overview map to a print layout that shows where the main map sits within its wider region. The inset is placed in a corner of the main map, draws the main map's extent as a box, and re-centres itself when the main map is panned or zoomed. Works from the main QGIS toolbar and from the layout designer's Add Item menu. No external dependencies.
+version=0.1.0
+author=Abdishakur
+email=shakurgds@gmail.com
+homepage=https://github.com/shakurgds/quick-inset-map
+tracker=https://github.com/shakurgds/quick-inset-map/issues
+repository=https://github.com/shakurgds/quick-inset-map
+tags=layout,inset,locator,overview,print,cartography
+category=Plugins
+icon=icon.svg
+experimental=True
+deprecated=False
+hasProcessingProvider=no
+server=False
+changelog=0.1.0
+    - First release
+    - Add an inset (locator) map to a print layout from the QGIS toolbar or the layout designer's Add Item menu
+    - Options for corner, size, shape, context extent, layers, extent box colour and frame
+    - Inset re-centres when the main map is panned or zoomed
+    - Supports QGIS 3.28 to 4.x (Qt5 and Qt6)
